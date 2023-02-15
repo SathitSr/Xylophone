@@ -34,27 +34,27 @@ const App = () => {
   return (
     <View style={{ flex: 1, backgroundColor: "#000" }}>
       <TouchableOpacity
-        style={{ flex: 1, backgroundColor: "red" }}
+        style={{ flex: 1, backgroundColor: "#FB9431" }}
         onPress={() => playNote(1)}
       />
       <TouchableOpacity
-        style={{ flex: 1, backgroundColor: "green" }}
+        style={{ flex: 1, backgroundColor: "#F73B48" }}
         onPress={() => playNote(2)}
       />
       <TouchableOpacity
-        style={{ flex: 1, backgroundColor: "blue" }}
+        style={{ flex: 1, backgroundColor: "#27A2DB" }}
         onPress={() => playNote(3)}
       />
       <TouchableOpacity
-        style={{ flex: 1, backgroundColor: "pink" }}
+        style={{ flex: 1, backgroundColor: "#7448AF" }}
         onPress={() => playNote(4)}
       />
       <TouchableOpacity
-        style={{ flex: 1, backgroundColor: "yellow" }}
+        style={{ flex: 1, backgroundColor: "#84BC44" }}
         onPress={() => playNote(5)}
       />
       <TouchableOpacity
-        style={{ flex: 1, backgroundColor: "red" }}
+        style={{ flex: 1, backgroundColor: "#802C76" }}
         onPress={() => playNote(6)}
       />
       <TouchableOpacity
